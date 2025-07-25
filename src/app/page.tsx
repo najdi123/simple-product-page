@@ -3,7 +3,7 @@ import ProductCard from "@/components/ProductCard";
 
 export type ProductsType={id:number,name:string,price:number}
 
-const Products:ProductsType[]=[
+export const Products:ProductsType[]=[
   {id:1,name:"phone",price:500},
   {id:2,name:"laptop",price:1000},
   {id:3,name:"headphones",price:100},
